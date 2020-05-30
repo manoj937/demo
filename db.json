@@ -1,14 +1,193 @@
-{
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
-}
+
+[
+    {
+      "name": "Programming",
+      "icon": "assets/code.png",
+      "active": "active",
+      "content": [
+        {
+          "name": "HTML",
+          "icon": "assets/html5.png",
+          "active": "active",
+          "questions": [
+            {
+              "number": 1,
+              "question": "Choose the correct HTML element for the largest heading?",
+              "categoryIcon": "assets/html.png",
+              "options": [
+                "h6",
+                "h1",
+                "head",
+                "heading"
+              ],
+              "answer": 1,
+              "next": 2,
+              "button": "Next"
+            },
+            {
+              "number": 2,
+              "question": "Choose the correct HTML element for the largest heading?",
+              "categoryIcon": "assets/html.png",
+              "options": [
+                "h6",
+                "h1",
+                "head",
+                "heading"
+              ],
+              "answer": 1,
+              "next": 3,
+              "button": "Next"
+            },
+            {
+              "number": 3,
+              "question": "Choose the correct HTML element for the largest heading?",
+              "categoryIcon": "assets/html.png",
+              "options": [
+                "h6",
+                "h1",
+                "head",
+                "heading"
+              ],
+              "answer": 1,
+              "next": 4,
+              "button": "Next"
+            },
+            {
+              "number": 4,
+              "question": "Choose the correct HTML element for the largest heading?",
+              "categoryIcon": "assets/html.png",
+              "options": [
+                "h6",
+                "h1",
+                "head",
+                "heading"
+              ],
+              "answer": 1,
+              "next": 5,
+              "button": "Next"
+            },
+            {
+              "number": 5,
+              "question": "Choose the correct HTML element for the largest heading?",
+              "categoryIcon": "assets/html.png",
+              "options": [
+                "h6",
+                "h1",
+                "head",
+                "heading"
+              ],
+              "answer": 1,
+              "next": 6,
+              "button": "Next"
+            },
+            {
+              "number": 7,
+              "question": "Choose the correct HTML element for the largest heading?",
+              "categoryIcon": "assets/html.png",
+              "options": [
+                "h6",
+                "h1",
+                "head",
+                "heading"
+              ],
+              "answer": 1,
+              "next": 8,
+              "button": "Next"
+            },
+            {
+              "number": 8,
+              "question": "Choose the correct HTML element for the largest heading?",
+              "categoryIcon": "assets/html.png",
+              "options": [
+                "h6",
+                "h1",
+                "head",
+                "heading"
+              ],
+              "answer": 1,
+              "next": 9,
+              "button": "Next"
+            },
+            {
+              "number": 9,
+              "question": "Choose the correct HTML element for the largest heading?",
+              "categoryIcon": "assets/html.png",
+              "options": [
+                "h6",
+                "h1",
+                "head",
+                "heading"
+              ],
+              "answer": 1,
+              "next": 10,
+              "button": "Next"
+            },
+            {
+              "number": 10,
+              "question": "Choose the correct HTML element for the largest heading?",
+              "categoryIcon": "assets/html.png",
+              "options": [
+                "h6",
+                "h1",
+                "head",
+                "heading"
+              ],
+              "answer": 1,
+              "next": 0,
+              "button": "Submit"
+            }
+          ]
+        },
+        {
+          "name": "CSS",
+          "icon": "assets/css.png",
+          "active": ""
+        },
+        {
+          "name": "Javascript",
+          "icon": "assets/js.png",
+          "active": ""
+        },
+        {
+          "name": "Python",
+          "icon": "assets/python.png",
+          "active": ""
+        },
+        {
+          "name": "Java",
+          "icon": "assets/java.png",
+          "active": ""
+        },
+        {
+          "name": "PHP",
+          "icon": "assets/php.png",
+          "active": ""
+        }
+      ]
+    },
+    {
+      "name": "Cinema",
+      "icon": "assets/movies.png",
+      "active": ""
+    },
+    {
+      "name": "Sports",
+      "icon": "assets/sports.png",
+      "active": ""
+    },
+    {
+      "name": "Science",
+      "icon": "assets/science.png",
+      "active": ""
+    },
+    {
+      "name": "Maths",
+      "icon": "assets/maths.png",
+      "active": ""
+    },
+    {
+      "name": "Health",
+      "icon": "assets/health.png",
+      "active": ""
+    }
+  ]
